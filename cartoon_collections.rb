@@ -14,5 +14,5 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find(ifnone = nil){|x| x.capitalize + "!" == valid_calls}
+  planeteer_calls.find(ifnone = nil){|x| x == valid_calls}
 end
