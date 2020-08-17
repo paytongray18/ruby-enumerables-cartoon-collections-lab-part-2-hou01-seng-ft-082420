@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  planeteer_calls.any?
+  planeteer_calls.any? {
 end
 
 def find_valid_calls(planeteer_calls)
